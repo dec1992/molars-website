@@ -1,0 +1,33 @@
+.container {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 240px;
+}
+
+.logo {
+  max-width: 40%;
+}
+
+.hero-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.03) 50%, rgba(0, 0, 0, 0.9) 100%);
+  min-height: 240px;
+}
+
+@media only screen and (min-width: 376px) {
+  .container, .hero-overlay {
+    min-height: 100vh;
+  }
+}

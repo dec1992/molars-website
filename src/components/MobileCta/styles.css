@@ -1,0 +1,21 @@
+.mobile-cta {
+  background-color: red;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-cta-text, .mobile-cta-link {
+  color: white;
+  margin: 0 3px;
+}
+
+.mobile-cta-link {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 376px) {
+  .mobile-cta {
+    display: none;
+  }
+}

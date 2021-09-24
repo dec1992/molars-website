@@ -1,0 +1,68 @@
+.lr-container {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.lr-overlay {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.9));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lr-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lr-artwork {
+  width: 120px;
+  height: 120px;
+  border: 2px solid red;
+  margin-bottom: 0.5rem;
+}
+
+.lr-artwork:hover {
+  -moz-box-shadow: 0 0 100px rgb(0, 0, 0);
+  -webkit-box-shadow: 0 0 100px rgb(0, 0, 0);
+  box-shadow: 0 0 100px rgb(0, 0, 0);
+}
+
+.lr-caption {
+  color: white;
+}
+
+.lr-caption:hover {
+  color: red;
+}
+
+@media only screen and (min-width: 376px) {
+  .lr-container, .lr-overlay {
+    min-height: 100vh;
+  }
+
+  .lr-card {
+    height: 80vh;
+    padding: 2rem;
+  }
+
+  .lr-artwork {
+    height: 100%;
+    width: auto;
+  }
+
+  .lr-caption {
+    font-size: large;
+  }
+}

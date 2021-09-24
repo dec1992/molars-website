@@ -1,0 +1,57 @@
+.ml-container {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.ml-overlay {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.9));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ml-offer, .ml-description {
+  color: white;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.ml-button {
+  background-color: red;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  margin: 1rem 0;
+  border: 1px solid red;
+}
+
+.ml-button:hover {
+  background-color: transparent;
+}
+
+@media only screen and (min-width: 376px) {
+  .ml-container, .ml-overlay {
+    min-height: 100vh;
+  }
+
+  .ml-offer, .ml-description {
+    font-size: 24px;
+  }
+
+  .ml-button {
+    font-size: 36px;
+    padding: 2rem 4rem;
+    border-radius: 4rem;
+    margin: 4rem 0;
+  }
+}

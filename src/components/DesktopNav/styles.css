@@ -1,0 +1,13 @@
+.dn-container {
+  position: absolute;
+  top: 30px;
+  display: none;
+}
+
+@media only screen and (min-width: 376px) {
+  .dn-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+  }
+}

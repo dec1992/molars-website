@@ -26,7 +26,7 @@
   min-height: 240px;
 }
 
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 400px) {
   .container, .hero-overlay {
     min-height: 100vh;
   }

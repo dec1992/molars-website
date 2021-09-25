@@ -1,0 +1,12 @@
+.spotify-follow {
+  position: sticky;
+  bottom: 10px;
+  right: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.spotify-button {
+  position: absolute;
+}

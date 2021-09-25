@@ -9,4 +9,6 @@
 
 .spotify-button {
   position: absolute;
+  bottom: 60px;
+  right: -80px;
 }

@@ -13,7 +13,7 @@ const SpotifyPlayer = () => {
   })
   
   useEffect(() => {
-    if (windowWidth > 375 ) {
+    if (windowWidth > 400 ) {
       const size = {
         width: '60%',
         height: windowHeight * 0.6

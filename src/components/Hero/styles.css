@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  min-height: 50vh;
+  height: 100vh;
 }
 
 .logo {
@@ -23,11 +23,5 @@
   height: 100%;
   width: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.03) 50%, rgba(0, 0, 0, 0.9) 100%);
-  min-height: 50vh;
-}
-
-@media only screen and (min-width: 400px) {
-  .container, .hero-overlay {
-    min-height: 100vh;
-  }
+  height: 100vh;
 }

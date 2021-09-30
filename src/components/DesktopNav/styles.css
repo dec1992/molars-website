@@ -8,6 +8,12 @@
   .dn-container {
     display: flex;
     justify-content: space-evenly;
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .dn-container {
     width: 70%;
   }
 }

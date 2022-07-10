@@ -5,7 +5,6 @@ import MobileCta from './components/MobileCta';
 import SpotifyPlayer from './components/SpotifyPlayer';
 import MailingList from './components/MailingList';
 import './reset.css';
-import SpotifyFollow from './components/SpotifyFollow';
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
       <LatestRelease />
       <SpotifyPlayer />
       <MailingList />
-      <SpotifyFollow />
       <Footer />
     </div>
   );

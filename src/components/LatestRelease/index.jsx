@@ -1,5 +1,5 @@
 import hero from '../../assets/images/section1.jpeg';
-import artwork from '../../assets/images/fgw-artwork.jpeg';
+import artwork from '../../assets/images/fgw-artwork.jpg';
 import './styles.css';
 
 const LatestRelease = () => {
